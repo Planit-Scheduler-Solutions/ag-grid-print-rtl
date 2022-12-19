@@ -1,0 +1,14 @@
+@import "@ag-grid-community/styles/ag-grid.css";
+@import "@ag-grid-community/styles/ag-theme-balham.css";
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+@media print{
+    body{
+        overflow: visible;
+    }
+}

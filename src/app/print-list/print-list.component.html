@@ -1,0 +1,7 @@
+<button class="print-button" (click)="printList()">Print</button>
+<ag-grid-angular [ngClass]="'ag-theme-balham grid font-by-list-parameter list-print'" [id]="'print-list'"
+    [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [getRowId]="getRowNodeId" [animateRows]="true"
+    [rowSelection]="'multiple'" [multiSortKey]="'ctrl'" [singleClickEdit]="true" [rowDragManaged]="false"
+    [tooltipShowDelay]="0" (gridReady)="gridReady($event)" [enableRtl]="true">
+</ag-grid-angular>
+
